@@ -7,6 +7,7 @@ import { generateReplyVariants, extractInquiryMetadata } from "@/lib/claude";
 import { google } from "googleapis";
 
 export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 
 const gmail = google.gmail("v1");
 
