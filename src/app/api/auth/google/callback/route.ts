@@ -4,6 +4,7 @@ import { NextRequest, NextResponse } from 'next/server';
 // Tell Next.js this route uses dynamic rendering (needs request.url)
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
+export const runtime = 'nodejs';
 
 const oauth2Client = new google.auth.OAuth2(
   process.env.GOOGLE_CLIENT_ID,
