@@ -1,0 +1,33 @@
+{
+  "name": "realtor-ai-email-automation",
+  "version": "0.1.0",
+  "description": "AI-powered email automation for real estate agents",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext ts,tsx || true",
+    "type-check": "tsc --noEmit || true"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.28.0",
+    "date-fns": "^2.30.0",
+    "dotenv": "^16.3.1",
+    "drizzle-orm": "^0.45.2",
+    "googleapis": "^131.0.0",
+    "next": "^14.0.0",
+    "pg": "^8.11.0",
+    "pg-core": "^0.1.15",
+    "postgres": "^3.4.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "eslint": "^8.54.0",
+    "eslint-config-next": "^14.0.0",
+    "typescript": "^5.3.0"
+  }
+}
